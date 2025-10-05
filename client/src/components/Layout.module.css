@@ -1,0 +1,5 @@
+.header{position:sticky;top:0;z-index:10;background:rgba(15,23,42,.65);backdrop-filter: blur(8px);border-bottom:1px solid var(--border);animation:fadeIn var(--normal) var(--easing) both}
+.bar{display:flex;align-items:center;gap:12px;height:64px}
+.brand{font-weight:700;letter-spacing:.6px;transition:transform var(--normal) var(--easing)}
+.brand:hover{transform:scale(1.02)}
+.main{padding:24px 0;animation:slideUp var(--normal) var(--easing) both}

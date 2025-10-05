@@ -1,0 +1,7 @@
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:10px;padding:10px 14px;background:transparent;color:var(--text);cursor:pointer;transition:transform var(--fast) var(--easing), box-shadow var(--fast) var(--easing), background var(--fast) var(--easing)}
+.primary{background:linear-gradient(180deg, var(--primary) 0%, var(--primary-600) 100%);border-color:transparent;color:white}
+.ghost:hover{transform:translateY(-2px);box-shadow:0 10px 20px rgba(2,6,23,.06)}
+.btn:active{transform:translateY(0) scale(.98)}
+.btn:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(59,130,246,.35)}
+.small{padding:6px 10px;border-radius:8px}
+.full{width:100%}

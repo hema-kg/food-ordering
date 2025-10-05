@@ -1,0 +1,4 @@
+.card{border:1px solid var(--border);border-radius:var(--radius);background:linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);box-shadow:var(--shadow);padding:16px;animation:slideUp var(--normal) var(--easing) both;transition:transform var(--normal) var(--easing), box-shadow var(--normal) var(--easing)}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(2,6,23,.08)}
+.header{font-weight:600;margin-bottom:6px}
+.sub{color:var(--muted);font-size:12px}

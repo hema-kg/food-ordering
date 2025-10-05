@@ -1,0 +1,8 @@
+.tabs{display:flex;gap:8px;align-items:center;margin:8px 0}
+.tab{border:1px solid var(--border);border-radius:8px;padding:8px 12px;text-decoration:none;color:var(--text);transition:background var(--fast) var(--easing), transform var(--fast) var(--easing)}
+.tab:hover{background:rgba(2,6,23,.03);transform:translateY(-1px)}
+.active{background:linear-gradient(180deg, var(--panel) 0, var(--panel-2) 100%)}
+.form{display:grid;gap:10px;max-width:520px}
+.input{padding:10px 12px;border-radius:10px;border:1px solid var(--border);color:var(--text);background:var(--panel)}
+.table{width:100%;border-collapse:collapse}
+.th,.td{padding:10px;border-bottom:1px solid var(--border);text-align:left}

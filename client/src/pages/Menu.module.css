@@ -1,0 +1,5 @@
+.wrap{max-width:840px;margin:24px auto;padding:0 12px}
+.hdr{display:flex;justify-content:space-between;align-items:center;margin:16px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.card{border:1px solid #ddd;border-radius:8px;padding:12px}
+.amt{margin-top:12px}
